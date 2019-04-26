@@ -1,0 +1,173 @@
+
+body{
+	font-family: "Segoe UI", Segoe, Calibri,
+	 "Nimbus Sans L", "Ubuntu", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	 padding: 0;
+	 border: 0;
+	 align-items: center;
+	 background-size: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: "Century Gothic", "Trebuchet MS", "Segoe UI", 
+	Segoe, "Nimbus Sans L", "Ubuntu", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h2{
+	padding-left: 4px;
+	text-align: center;
+	font-size: 40px;
+}
+h3{
+	padding-left: 4px;
+	text-align: center;
+	font-size: 30px;
+}
+#header{
+	background-image: url('img/Flag_of_Malawi.svg' );
+	background-repeat: no-repeat;
+	background-position-x: center;
+	margin-bottom: 40px;
+	margin:35px auto;
+	height: 500px;
+}
+#header h1{
+	text-align: center;
+	color: rgb(192, 182, 185);
+	
+	text-shadow: 0 2px 0 #573838;
+	font-size: 60px;
+}
+
+.e{
+	align-content: center;
+    border: 0;
+	margin-bottom: 40px;
+	width: 500px;
+	margin:35px auto;
+}
+input[type=text]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid rgb(227, 155, 245);
+    color: #573838;
+    font-size: 16px;
+    border-radius: 5px;
+}
+label{
+    color: #464646;
+    text-shadow: 0 1px 0 #2f2f2fff;
+    font-size: 20px;
+	font-weight: bold;
+}
+
+#bF{
+	border: 1px solid rgb(231, 221, 221);
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+	background-color: darkorange; 
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#bF:hover{
+background-color: green;
+}
+
+/* voting */
+
+#header-v{
+	background-color: green;
+	text-align: center;
+	font-size: 30px;
+	height: 90px;
+
+}
+div{
+	align-content: center;
+    border-top: 1px solid #ccc;
+	width: 1000px;
+	margin:35px auto;
+}
+strong:hover{
+	background-color:green;
+}
+ul{
+	list-style: none;
+	color: #4f344f;
+	padding-bottom: 10px;
+
+}
+ul li{
+	padding-bottom: 10px;
+	color: rgb(17, 36, 36);
+	border-radius: 4;
+	list-style: none;
+	float: initial;
+}
+image{
+	image-resolution: 40px 50px;
+}
+#president{
+	background-color: #c9bdbd;
+	background-repeat: no-repeat;
+	background-size: 90vmax;
+	border-radius: 5px;
+
+}
+table{
+	margin-top: 30px;
+	margin-left: 440px;
+	float: left;
+}
+.button{
+	margin-top: 30px;
+	margin-left: 440px;
+}
+#voteButton{
+	border: 1px solid rgb(231, 221, 221);
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+	background-color: darkorange; 
+	font-family:Georgia, 'Times New Roman', Times, serif;   
+}
+#voteButton:hover{
+	background: green;
+}
+.vote-reg-form{
+    width: 360px;
+    padding: 10% 0 0;
+    margin:   auto;
+}
+
+.formy{
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 7px;
+}
+.body-vote-form{
+	background-image: linear-gradient(rgba(167, 92, 92, 0.6),rgba(0,0,0,0.6)),url(img/saveTime.jfif);
+    height: 100Vh;
+    background-size: cover;
+    background-position: center;
+}
+#imge{
+	 margin-left: 40%;
+
+}
